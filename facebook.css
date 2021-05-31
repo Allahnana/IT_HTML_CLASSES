@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    background-color: hsl(240, 39%, 47%);
+    position: absolute;
+    width: 100%;
+    line-height: 1.4;
+}
+.form-1{
+    position: relative;
+    float: right;
+    padding: 30px;
+}
+#pwd{
+    color: white;
+}
+.logo h1{
+    padding-left: 30px;
+    padding-top: 40px;
+    position: absolute;
+    color: aliceblue;
+}
+
+.down{
+    position: absolute;
+    margin-top: 120px;
+    background-color: rgb(235, 239, 243);
+    height: 100%;
+    width: 100%;
+    color: rgb(63, 60, 60)
+
+}
+.down .form-2{
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+
+}
+.down_2 {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+}
+.down input{
+    width: 70%;
+    padding: 7px;
+    border-radius: 5px;
+}
+.down #birthday{
+    width: 10%;
+}
+a{
+    text-decoration: none;
+}
+.down .gender{
+    width: 10%;
+}
+button{
+    padding: .6rem .8rem;
+    width: 30%;
+    cursor: pointer;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+body{
+    overflow: hidden;
+}
+
+ul{
+    float: left;
+    margin: 0 5px;
+    color: aliceblue;
+}
+
+li{
+    list-style: none;
+}
+
+.submit {
+    margin: 23px 15px;
+    padding: 4px;
+    background-color: rgb(73, 73, 168);
+    color: aliceblue;
+}
