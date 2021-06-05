@@ -1,0 +1,75 @@
+body{
+    background-image: url("1.jpg") ;
+    /* background-image: url("2.jpg") ; */
+   background-size:cover ;
+}
+.error{
+    display: none;
+    color:red;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-area{
+    max-width: 30%;
+    margin: 1.625rem auto 0 auto;
+    border-radius: 2px;
+    box-shadow:2px 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.2);
+    padding: 1rem 1rem 1rem 1.2rem;
+    line-height: 1.5;
+
+}
+.form-control{
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 0.3rem 0.75rem;
+}
+.form-action{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.70rem;
+}
+.create{
+    display: flex;
+    margin: 10px auto 0 auto;
+    justify-content: space-between;
+    height: 40px;
+    /* padding-right: 300px; */
+    margin-bottom: 10px;
+
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 10px;
+    color: white;
+    background-color: rgb(60, 127, 214);
+    border: none;
+    border-radius: 5px;
+}
+
+.footer{
+     color: rgb(32, 156, 32); 
+    text-align: center;
+    margin-bottom: 10%;
+}
+.forget{
+    
+    padding: 5px; 
+    color: white; 
+    background-color: rgb(6, 156, 86);
+    font-size: 20px;
+    display: flexbox;
+
+}
+
+.create-1{
+   margin-top: 10px;
+    padding-right: 300px;
+    justify-content: center;
+}

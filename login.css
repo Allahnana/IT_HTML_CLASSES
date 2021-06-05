@@ -1,0 +1,23 @@
+.cont{
+    background-color: rgb(87, 85, 87);
+    padding-left: 1000px;
+}
+.cont_2{
+    padding-left: 1000px;
+    background-color: rgb(146, 171, 196);
+}
+.cancelbutton{
+    width: auto;
+    padding: 10px 18px;
+    background-color: aqua;
+}
+
+.psw{
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+button{
+      cursor: pointer;
+}
